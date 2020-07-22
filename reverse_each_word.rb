@@ -11,6 +11,6 @@ def reverse_each_word(string)
     element.reverse!
   do
     element.join(" ")
-  end 
+  end
   end
 end
