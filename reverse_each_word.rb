@@ -1,7 +1,13 @@
-def reverse_each_word(array, element)
-  array = string.split(' ')
-array.each do |element|
-     puts element.reverse!
-return array
+#def reverse_each_word(array, element)
+#  array = string.split(' ')
+#array.each do |element|
+#     puts element.reverse!
+#return array
+#  end
+#end
+
+def reverse_each_word(string)
+  (string).collect do |element|
+    element.reverse
   end
 end
